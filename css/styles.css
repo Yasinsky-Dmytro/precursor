@@ -1,0 +1,82 @@
+:root {
+  --color-black: #000000;
+  --color-black-transparent: rgba(0, 0, 0, 0.8);
+  --color-white: #ffffff;
+  --color-grey: grey #f5f5f5;
+  --color-accent: #18a0fb;
+}
+body {
+  background-color: #ffffff;
+  color: var(--color-black-transparent);
+}
+.list {
+  list-style: none;
+}
+/* color text black #000000; */
+/* color text p rgba(0, 0, 0, 0.8); */
+/* color white #FFFFFF; */
+/* color accent  #18A0FB*/
+/* color background grey #F5F5F5; */
+
+.logo {
+  color: var(--color-black);
+}
+
+.logo:hover {
+  color: var(--color-accent);
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: var(--color-accent);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--color-black);
+}
+
+.site-nav .link.current {
+  color: var(--color-black);
+}
+
+/* hero */
+.hero-title {
+  color: var(--color-black);
+}
+
+/* section */
+.section-title {
+  color: var(--color-black);
+}
+
+/* features */
+.feature-list .title {
+  color: var(--color-black);
+}
+
+.feature-list .link {
+  color: var(--color-accent);
+}
+
+/* examples of work */
+.work-list .title {
+  color: var(--color-black);
+}
+
+/* button */
+.button {
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+.button.primary {
+  background-color: var(--color-white);
+  color: var(--color-accent);
+}
+
+.button.secondary {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
